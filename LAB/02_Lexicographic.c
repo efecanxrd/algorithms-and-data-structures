@@ -49,6 +49,7 @@ int main(int argc, char *argv[]) {
         printf("%s\n", list[i].str);
     }
 
+    free(list);
     return 0;
 }
 
